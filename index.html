@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+  </head>
+
+  <body>
+  <div id="tudo">
+    <header>
+      <div class="container">
+        <h1 class="titulo">Jogo da Forca</h1>
+      </div>
+    </header>
+
+    <main class="container">
+      <button class="btn" id="iniciar-jogo" style="text-align:center">NOVO JOGO</button>
+
+      <div style="text-align:center;">
+        <canvas id="forca" height="500px" width="1200px"></canvas>
+
+      </div>
+
+      <div>
+        <br>
+        <input class="text-input" type="text" id="input-nova-palavra" placeholder="Insira uma nova palavra...">
+        <button class="btn" id="nova-palavra">ADICIONAR</button>
+        <br>
+        <span id="mensagem-erro" class="invisivel">Palavra inválida.</span>
+        <br>
+        <br>
+      </div>
+
+      <script type="text/javascript" src="js/canvas.js"></script>
+      <script type="text/javascript" src="js/forca.js"></script>
+
+  </main>
+  <footer>
+    <div class="container">
+      <h2>Alura Challenge | Oracle ONE | Rafael Carvalho</h2>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

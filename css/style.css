@@ -1,0 +1,88 @@
+
+
+.titulo {
+
+  width: 30vw;
+  margin: auto;
+
+}
+
+header{
+	background-color: #333;
+	height: 3em;
+	color: #FFF;
+	margin-bottom: 2em;
+}
+
+header h1{
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+  font-family: "Century Gothic";
+}
+
+header .container:before{
+	content: '';
+	display:inline-block;
+	height: 100%;
+	vertical-align:	middle;
+}
+
+
+.container{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+footer {
+  bottom:0;
+  background-color: #333;
+	height: 3em;
+	color: #FFF;
+
+}
+
+footer h2{
+	font-size: 20px;
+  display:inline-block;
+  font-family: "Century Gothic";
+}
+
+footer .container:before{
+	content: '';
+	display:inline-block;
+	height: 100%;
+	vertical-align:	middle;
+
+}
+
+.btn {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+
+  padding: 0.5em;
+  width: 30%;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mensagem-erro {
+  color: red;
+}
+
+.invisivel {
+  display: none;
+}
